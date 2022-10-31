@@ -271,7 +271,8 @@
 
                 $preparedStatement->execute([$idTipificacion]); 
 
-            }catch(Exception $e){
+            }catch(Exception $e){                
+           
 
                 $e->getMessage();
 

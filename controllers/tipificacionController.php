@@ -59,13 +59,12 @@
                         $telefonoCliente = $_GET['telefonoCliente'];
             
                         $tipificaciones = $tipificacionDao->borrarTipificacion($idTipificacion,$telefonoCliente);
+                        
                 
-                        require('../views/tipificacion/create.php');
+                        require('../views/tipificacion/create.php');                        
     
                     break;                    
 
-                    
-                    
 
                     case 'generarReporte':
 
