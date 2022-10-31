@@ -1,0 +1,113 @@
+/*
+*************
+Estilos Login
+*************
+*/
+
+.section--one{
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    height: 100vh;
+
+    background: linear-gradient(45deg, #4cc9f0ff, #5e60ceff);
+
+}
+
+.section--one > h1{
+
+    color: white;
+
+    margin: 40px auto;
+
+    font-size: 25pt;
+
+    font-weight: normal;
+
+}
+
+.section--one > form{
+
+    width: 350px;
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.section--one > form > *{
+
+    margin-top: 6px;
+    margin-bottom: 6px;
+
+}
+
+.section--one > form > input{
+
+    padding: 15px;
+
+    border-radius: 10px;
+
+    border: none;
+
+    font-size: 12pt;
+
+}
+
+.section--one > form > button{
+
+    padding: 15px;
+
+    background-color: #464891;
+
+    border-radius: 10px;
+
+    border: none;
+
+    color: white;
+
+    font-size: 12pt;
+    font-weight: bold;
+
+    cursor: pointer;
+
+}
+
+.section--one > form > button:hover{
+
+    background: none;
+
+    background-color: white;
+
+    color: #464891;
+
+}
+
+.section--one > p{
+
+    margin-top: 25px;
+
+    color: white;
+
+    text-decoration: underline;
+
+    cursor: pointer;
+
+}
+
+.logo--big{
+
+    width: 50vw;
+    height: 150px;
+
+    background-image: url("../../assets/images/LogoAlmaGrande.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}

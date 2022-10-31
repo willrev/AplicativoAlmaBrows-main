@@ -1,0 +1,297 @@
+.section--one{
+
+    display: flex;
+
+    flex-direction: column;
+
+    width: 100%;
+    height: calc(100vh - 60px);
+    min-height: 800px;
+
+}
+
+.div--title{
+
+    display: flex;
+
+    margin: 0 60px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.div--title > h1{
+
+    background: linear-gradient(45deg,#4cc9f0ff, #5e60ceff);
+    -webkit-background-clip: text;
+    color: transparent;
+
+    font-size: 50pt;
+
+}
+
+.div--buttons{
+
+    width: 650px;
+
+    display: flex;
+
+    justify-content: flex-end;
+
+    gap: 50px;
+
+}
+
+.div--buttons > a{
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    width: 250px;
+    height: 50px;
+
+    background: #52b788;
+
+    color: white;
+
+    font-family: 'Century Gothic';
+    font-weight: bold;
+
+    text-decoration: none;
+
+    border: 3px solid transparent;
+    border-radius: 20px;
+
+}
+
+.div--buttons > a:hover{
+
+    background-color: white;
+
+    color: #52b788;
+
+    border: 3px solid #52b788;
+
+}
+
+.div--buttons > form{
+
+    display: flex;
+
+    height: 50px;
+
+}
+
+.div--buttons > form > input{
+
+    width: 250px;
+
+    padding: 0 10px;
+
+    box-sizing: border-box;
+
+    border: 3px solid #5496dfff;
+    border-right: none;
+
+    font-family: 'Roboto';
+    font-size: 12pt;
+
+}
+
+.div--buttons > form > button{
+
+    width: 100px;
+
+    background-color: #5496dfff;
+    border: 3px solid #5496dfff;
+
+    color: white;
+
+    font-family: 'Century Gothic';
+    font-weight: bold;
+    font-size: 12pt;
+
+    cursor: pointer;
+
+}
+
+.div--buttons > form > button:hover{
+
+    background-color: white;
+    border: 3px solid #5496dfff;
+
+    color: #5496dfff;
+
+}
+
+.section--one > table{
+
+    margin: 30px 60px; 
+
+    text-align: center;
+
+    border-collapse: collapse;
+
+}
+
+.section--one > table thead{
+
+    height: 40px;
+
+    background: linear-gradient(45deg, #4cc9f0ff, #5e60ceff);
+
+    color: white;
+
+}
+
+.section--one > table > tbody tr{
+
+    height: 50px;
+
+    background-color: #e9ecef;
+
+}
+
+.section--one > table .button--modify{
+
+    width: 150px;
+    height: 30px;
+
+    padding: 6px 15px;
+
+    box-sizing: border-box;
+
+    background-color: #5e60ceff;
+    border: 3px solid #5e60ceff;
+
+    font-family: 'Century Gothic';
+    font-weight: bold;
+
+    text-decoration: none;
+
+    color: white;
+
+    border-radius: 5px;
+
+}
+
+.section--one > table .button--modify:hover{
+
+    background-color: unset;
+
+    color: #5e60ceff;
+
+}
+
+.section--one > table .button--delete{
+
+    width: 150px;
+    height: 30px;
+
+    padding: 6px 15px;
+
+    box-sizing: border-box;
+
+    background-color: #ff5555ff;
+    border: 3px solid #ff5555ff;
+
+    font-family: 'Century Gothic';
+    font-weight: bold;
+
+    text-decoration: none;
+
+    color: white;
+
+    border-radius: 5px;
+
+}
+
+.section--one > table .button--delete:hover{
+
+    background-color: unset;
+    
+    color: #ff5555ff;
+
+}
+
+.div--pagination{
+
+    width: 90%;
+
+    display: flex;
+
+    align-self: center;
+    justify-content: center;
+
+    gap: 10px;
+
+    padding-bottom: 40px;
+
+}
+
+.div--pagination > a{
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    width: 40px;
+    height: 40px;
+
+    background: linear-gradient(45deg, #4cc9f0ff, #5e60ceff);
+
+    text-decoration: none;
+
+    border-radius: 5px;
+
+    font-family: 'Century Gothic';
+    font-style: 12pt;
+    font-weight: bold;
+
+    color: white;
+
+}
+
+.div--pagination > a:hover{
+
+    background: linear-gradient(270deg, #4cc9f0ff, #5e60ceff);
+
+}
+
+.div--alertaRecordatorios{
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    position: fixed;
+
+    bottom: 0;
+    right: 0;
+
+    width: 200px;
+    height: 50px;
+
+    margin: 40px;
+    padding: 10px;
+
+    background-color: #f77f00;
+
+    text-align: center;
+
+    font-family: 'Century Gothic';
+    font-size: 13pt;
+    font-weight: bold;
+
+    color: white;
+
+    border-radius: 20px;
+
+}

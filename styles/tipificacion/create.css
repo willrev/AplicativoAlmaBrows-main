@@ -1,0 +1,181 @@
+.section--one{
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+    margin: 0 auto;
+    padding-top: 100px;
+
+    background-color: #5496dfff;
+
+}
+
+.section--one > h1{
+
+    font-size: 50pt;
+
+    color: white;
+
+}
+
+.section--one > form{
+
+    width: 700px;
+
+    margin: 30px 0;
+
+    display: flex;
+    
+    flex-direction: column;
+
+    justify-content: space-evenly;
+
+}
+
+.div--form{
+
+    display: flex;
+
+    flex-direction: column;
+
+    margin: 20px 0;
+
+}
+
+.div--conditional{
+
+    display: none;
+
+}
+
+.div--form > label{
+
+    padding: 10px;
+
+    font-size: 16pt;
+
+    color: white;
+
+    background-color: #52b788;
+
+}
+
+.div--form > input{
+
+    height: 40px;
+
+    box-sizing: border-box;
+
+    padding: 10px 10px;
+
+    border: none;
+
+    font-size: 16pt;
+
+    outline: none;
+
+}
+
+.div--form > select{
+
+    box-sizing: border-box;
+
+    padding: 10px 10px;
+
+    border: none;
+
+    font-size: 16pt;
+
+    outline: none;
+
+}
+
+.div--form > textarea{
+
+    padding: 20px;
+
+    font-size: 16pt;
+
+}
+
+.div--checkbox{
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    width: 700px;
+    height: 100px;
+
+    background-color: white;
+
+}
+
+.div--checkbox > input{
+
+    width: 50px;
+    height: 50px;
+
+}
+
+.div--form > button{
+
+    width: 200px;
+    height: 60px;
+
+    align-self: flex-end;
+
+    background-color: #52b788;
+
+    border: 3px solid #52b788;
+
+    border-radius: 10px;
+
+    font-family: 'Century Gothic';
+    font-size: 15pt;
+    font-weight: bold;
+
+    color: white;
+
+}
+
+.div--form > button:hover{
+
+    background-color: white;
+
+    color: #52b788;
+
+    cursor: pointer;
+
+}
+
+.a--volver{
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    align-self: center;
+
+    width: 150px;
+    height: 50px;
+
+    text-decoration: none;
+
+    margin-bottom: 40px;
+
+    background-color: #52b788;
+
+    border-radius: 15px;
+
+    font-family: 'Century Gothic';
+    font-size: 13pt;
+    font-weight: bold;
+
+    color: white;
+
+}

@@ -1,0 +1,120 @@
+/*
+**************
+ESTILOS HEADER
+**************
+*/
+
+.navbar--container{
+
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+
+    width: 100%;
+    height: 60px;
+
+    position: relative;
+
+    background: linear-gradient(45deg, #4cc9f0ff, #5e60ceff);
+
+}
+
+.navbar--logo{
+
+    width: 150px;
+    height: 40px;
+
+    margin-left: 10px;
+
+    background-image: url("../../assets/images/LogoBlancoRecortado.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.navbar{
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 30px;
+
+}
+
+.navbar > a{
+
+    color: white;
+
+    font-family: 'Century Gothic';
+    font-weight: bold;
+
+    text-decoration: none;
+
+}
+
+.navbar--profile{
+
+    width: 80px;
+    height: 40px;
+
+    margin-right: 10px;
+
+    /* background-image: url("../../assets/images/MiPerfilAbajo.png"); */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.navbar--profileMenu{
+
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+    justify-content: space-evenly;
+
+    width: 250px;
+
+    top: 60px;
+    right: 0;
+
+    position: absolute;
+
+    background: linear-gradient(45deg, #4cc9f0ff, #5e60ceff);
+    border-bottom-left-radius: 20px;
+
+}
+
+.div--profileMenu{
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    height: 50px;
+
+}
+
+.div--logout{
+
+    background-color: #ff5555ff;
+    border-bottom-left-radius: 20px;
+
+}
+
+.div--profileMenu > a{
+
+    color: white;
+
+    font-family: 'Century Gothic';
+    font-weight: bold;
+
+    text-decoration: none;
+
+}

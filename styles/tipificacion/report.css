@@ -1,0 +1,77 @@
+.section--one{
+
+    width: 100%;
+
+    display: flex;
+
+    align-items: center;
+
+    flex-direction: column;
+
+}
+
+.section--one > h1{
+
+    font-size: 35pt;
+
+    margin-top: 60px;
+    margin-bottom: 30px;
+
+    background: linear-gradient(45deg,#4cc9f0ff, #5e60ceff);
+    -webkit-background-clip: text;
+    color: transparent;
+
+}
+
+.section--one > form{
+
+    display: flex;
+
+    flex-direction: column;
+
+}
+
+.section--one > form *{
+
+    margin: 10px 0;
+
+}
+
+.div--form{
+
+    display: flex;
+
+    gap: 20px;
+
+}
+
+.button--download{
+
+    align-self: center;
+
+    width: 300px;
+    height: 40px;
+
+    background-color: #52b788;
+
+    border: 3px solid #52b788;
+
+    border-radius: 10px;
+
+    font-family: 'Century Gothic';
+    font-size: 11pt;
+    font-weight: bold;
+
+    color: white;
+
+}
+
+.button--download:hover{
+
+    background-color: white;
+
+    color: #52b788;
+
+    cursor: pointer;
+
+}

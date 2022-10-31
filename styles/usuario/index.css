@@ -1,0 +1,154 @@
+.section--one{
+
+    display: flex;
+
+    flex-direction: column;
+
+    width: 100%;
+    height: calc(100vh - 60px);
+    min-height: 800px;
+
+}
+
+.div--title{
+
+    display: flex;
+
+    margin: 0 60px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.div--title > h1{
+
+    background: linear-gradient(45deg,#4cc9f0ff, #5e60ceff);
+    -webkit-background-clip: text;
+    color: transparent;
+
+    font-size: 50pt;
+
+}
+
+.div--title > a{
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    width: 250px;
+    height: 50px;
+
+    margin-left: 60px;
+
+    background: #52b788;
+
+    color: white;
+
+    font-family: 'Century Gothic';
+    font-weight: bold;
+
+    text-decoration: none;
+
+    border-radius: 20px;
+
+}
+
+.div--title > a:hover{
+
+    background-color: white;
+
+    color: #52b788;
+
+    border: 3px solid #52b788;
+
+}
+
+.section--one > table{
+
+    margin: 30px 60px; 
+
+    text-align: center;
+
+    border-collapse: collapse;
+
+}
+
+.section--one > table thead{
+
+    height: 40px;
+
+    background: linear-gradient(45deg, #4cc9f0ff, #5e60ceff);
+
+    color: white;
+
+}
+
+.section--one > table > tbody tr{
+
+    height: 50px;
+
+    background-color: #e9ecef;
+
+}
+
+.section--one > table .button--modify{
+
+    height: 30px;
+
+    padding: 6px 15px;
+
+    box-sizing: border-box;
+
+    background-color: #5e60ceff;
+
+    border: 3px solid #5e60ceff;
+
+    text-decoration: none;
+
+    color: white;
+
+    border-radius: 5px;
+
+}
+
+.section--one > table .button--modify:hover{
+
+    background-color: unset;
+
+    color: #5e60ceff;
+
+}
+
+.section--one > table .button--delete{
+
+    width: 150px;
+    height: 30px;
+
+    padding: 6px 15px;
+
+    box-sizing: border-box;
+
+    background-color: #ff5555ff;
+
+    border: 3px solid #ff5555ff;
+
+    text-decoration: none;
+
+    color: white;
+
+    border-radius: 5px;
+
+}
+
+.section--one > table .button--delete:hover{
+
+    background-color: unset;
+    
+    color: #ff5555ff;
+
+}
