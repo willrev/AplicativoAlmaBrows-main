@@ -76,6 +76,7 @@
 
         public function mostrarTipificacion(int $idTipificacion, string $telefonoCliente){
 
+           
             try{
 
                 $connector = new DBConnector();
@@ -171,7 +172,7 @@
 
         } */
 
-         /*public function actualizarTipificacion($tipificacion){
+         public function actualizarTipificacion($tipificacion){
 
             try{
 
@@ -234,7 +235,7 @@
 
         } 
         
-        */
+        
 
         /* Función de prueba para actualizar  tipificación*/
 
