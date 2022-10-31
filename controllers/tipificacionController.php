@@ -58,8 +58,7 @@
 
                         $telefonoCliente = $_GET['telefonoCliente'];
             
-                        $tipificaciones = $tipificacionDao->borrarTipificacion($idTipificacion,$telefonoCliente);
-                        
+                        $tipificaciones = $tipificacionDao->borrarTipificacion($idTipificacion,$telefonoCliente);                        
                 
                         require('../views/tipificacion/create.php');                        
     
