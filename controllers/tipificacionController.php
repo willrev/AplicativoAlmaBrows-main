@@ -135,7 +135,7 @@
 
                         $preparedStatement = $connection->prepare(
                     
-                            "INSERT INTO tipificacion (nombreUsuario, fechaGestion, fechaFinGestion, embudoOrigen, tipoOT, redSocial, nombreCliente, telefonoCliente, estadoTipificacion, agendaIncumplida, cancelaCita, noInteresado, exito, fechaCheckCalidad, costoModelo, fechaPagoModelo, fechaMantenimientoGratis, fechaValoracionGratis, fechaValoracionPresencial, fechaValoracionVirtual, fechaVolverALlamar, fechaVolverALlamarInteresado, observaciones, textarea, recordatorio) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?);"
+                            "INSERT INTO tipificacion (nombreUsuario, fechaGestion, fechaFinGestion, embudoOrigen, tipoOT, redSocial, nombreCliente, telefonoCliente, estadoTipificacion, agendaIncumplida, cancelaCita, noInteresado, exito, fechaCheckCalidad, costoModelo, fechaPagoModelo, fechaMantenimientoGratis, fechaValoracionGratis, fechaValoracionPresencial, fechaValoracionVirtual, fechaVolverALlamar, fechaVolverALlamarInteresado, observaciones, recordatorio) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?);"
                         
                         );
 
@@ -164,7 +164,6 @@
                             $_POST["fechaVolverALlamar"],
                             $_POST["fechaVolverALlamarInteresado"],
                             $_POST["observaciones"],
-                            $_POST["textarea"],
                             $recordatorio
                         
                         ]);
