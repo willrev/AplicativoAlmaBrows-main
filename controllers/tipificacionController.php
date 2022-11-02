@@ -47,7 +47,7 @@
             
                         $tipificaciones = $tipificacionDao->mostrarTipificacion($idTipificacion,$telefonoCliente);
                 
-                        require('../views/tipificacion/create.php');
+                        require('../views/tipificacion/modify.php');
     
                     break;
 

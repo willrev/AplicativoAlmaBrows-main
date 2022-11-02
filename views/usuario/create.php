@@ -10,13 +10,11 @@
 
         <h1>Añadir Usuario</h1>
 
-        <form action="usuarioController.php" method="POST">
-
-            <div class="div--form">
+        <form action="usuarioController.php" method="POST">          
 
                 <input type="text" id="accion" name="accion" value="insertarUsuario" hidden>
 
-            </div>
+    
 
             <div class="div--form">
 
