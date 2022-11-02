@@ -84,11 +84,6 @@
                             <a class="button--modify" href="tipificacionController.php?accion=eliminarTipificacion&idTipificacion=<?=$tipificacion->idTipificacion?>&telefonoCliente=<?=$tipificacion->telefonoCliente?>">Eliminar</a>
                             
                         </td>
-                        <td>
-
-                            <a class="button--modify" href="#">P.RamaGit.</a>
-                            
-                        </td>
                         
                     </tr>
 
