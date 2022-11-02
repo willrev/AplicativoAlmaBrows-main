@@ -16,34 +16,31 @@
 
             <?php foreach($usuarios as $usuario) : ?>
 
-                <div class="div--form">
-
-                    <p class="div--form">ID Usuario:</p>
-                    <p><?=$usuario->idUsuario?></p>
+                
+                    <label for="idUsuario">ID Usuario:</label>
+                    <label><?=$usuario->idUsuario?></label>
                     <input type="text" name="idUsuario" id="idUsuario" value="<?=$usuario->idUsuario?>" hidden>
 
-                </div>
 
                 <div class="div--form">
-
                     
-                    <p>Modificar Nombre:</p>
+                    <label>Modificar Nombre:</label>
                     <input type="text" name="nombreUsuario" id="nombreUsuario" value="<?=$usuario->nombreUsuario?>">
 
                 </div>
 
                 <div class="div--form">
 
-                    <p>Contraseña:</p>
+                    <label>Contraseña:</label>
                     <p><?=$usuario->claveUsuario?></p>
-                    <input type="text" id="claveUsuario" name="claveUsuario" value="<?=$usuario->claveUsuario?>" hidden>
+                    <input type="text" name="claveUsuario"  id="claveUsuario" value="<?=$usuario->claveUsuario?>" hidden>
                     
                 </div>
 
                 <div class="div--form">
 
-                    <p>Tipo de Usuario:</p>
-                    <p>
+                    <label>Tipo de Usuario:</label>
+
                     <?php
                     
                         foreach($roles as $rol){
@@ -63,7 +60,8 @@
                 </div>
 
                 <div class="div--form">
-                    <p>Modificar Tipo de Usuario:</p>
+
+                <label for="idTipoUsuario">Modificar Tipo de Usuario:</label>
                     <select name="idTipoUsuario" id="idTipoUsuario">
 
                         <?php foreach($roles as $rol): ?>
@@ -81,10 +79,11 @@
 
                         <?php endforeach; ?>
 
-                    </div>
-        </form>
+                        <a href="usuarioController.php">Volver</a>
 
-        <a href="usuarioController.php">Volver</a>
+                    </div>
+        </form>    
+
 
     </section>
 
