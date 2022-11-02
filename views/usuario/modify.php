@@ -32,7 +32,7 @@
                 <div class="div--form">
 
                     <label>Contraseña:</label>
-                    <p><?=$usuario->claveUsuario?></p>
+                    <h2><?=$usuario->claveUsuario?></h2>
                     <input type="text" name="claveUsuario"  id="claveUsuario" value="<?=$usuario->claveUsuario?>" hidden>
                     
                 </div>
@@ -41,7 +41,7 @@
 
                     <label>Tipo de Usuario:</label>
 
-                    <?php
+                    <h2><?php
                     
                         foreach($roles as $rol){
 
@@ -55,7 +55,7 @@
                     
                         ?>
 
-                    </p>
+                    </h2> 
 
                 </div>
 

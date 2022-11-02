@@ -81,6 +81,36 @@
 
 }
 
+/*Estilo para el 
+campo de contraseña
+en el archivo :
+modify.php
+editar usuario */
+/********/
+/********/
+
+.div--form > h2{
+
+    height: 40px;
+    width: 500px;
+
+    box-sizing: border-box;
+
+    padding: 10px 10px;
+
+    background-color: #caf0f8;
+
+    border: none;
+
+    font-size: 12pt;
+
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+    outline: none;
+
+}
+
 .div--form > select{
 
     height: 40px;
