@@ -81,7 +81,7 @@
                         </td>
                         <td>
 
-                            <a class="button--modify" href="tipificacionController.php?accion=eliminarTipificacion&idTipificacion=<?=$tipificacion->idTipificacion?>&telefonoCliente=<?=$tipificacion->telefonoCliente?>">Eliminar</a>
+                            <a class="button--delete" href="tipificacionController.php?accion=eliminarTipificacion&idTipificacion=<?=$tipificacion->idTipificacion?>&telefonoCliente=<?=$tipificacion->telefonoCliente?>">Eliminar</a>
                             
                         </td>
                         
