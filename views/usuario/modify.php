@@ -6,21 +6,25 @@
 
 <main>
 
-    <section class="section--one">    
+    <section class="section--one">          
 
         <h1>Usuario</h1>
+        
+        <section class="section--one">
 
         <form action="usuarioController.php" method="POST">
+        
 
             <input type="text" name="accion" id="accion" value="actualizarUsuario" hidden>
 
             <?php foreach($usuarios as $usuario) : ?>
 
-                
+                <div class="div--form">
                     <label for="idUsuario">ID Usuario:</label>
-                    <label><?=$usuario->idUsuario?></label>
+                    <h2><?=$usuario->idUsuario?></h2>
                     <input type="text" name="idUsuario" id="idUsuario" value="<?=$usuario->idUsuario?>" hidden>
 
+                </div>
 
                 <div class="div--form">
                     
@@ -82,8 +86,7 @@
                         <a href="usuarioController.php">Volver</a>
 
                     </div>
-        </form>    
-
+            </form>    
 
     </section>
 
